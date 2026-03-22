@@ -6,6 +6,6 @@ vendas = int(input('Vendas do mês: '))
 
 #Retorna o bônus do usuário com base nas vendas do mês
 if vendas>100000:
-    print(f'Bônus de R${salario*2}')
+    print(f'Bônus de R${(salario*2):.2f}')
 else:
-    print(f'Bônus de R${salario*1.5}')
+    print(f'Bônus de R${(salario*1.5):.2f}')

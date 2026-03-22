@@ -2,10 +2,10 @@
 compra = float(input('Digite o valor da compra: R$'))
 
 #Retorna o valor original pro usuário
-print(f'Valor original: R${compra}')
+print(f'Valor original: R${compra:.2f}')
 
 #Retorna o valor com disconto com base no valor da compra
 if compra>5000:
-    print(f'Com desconto: R${compra - compra*0.075}')
+    print(f'Com desconto: R${(compra - compra*0.075):.2f}')
 else:
-    print(f'Com desconto: R${compra - compra*0.035}')
+    print(f'Com desconto: R${(compra - compra*0.035):.2f}')
